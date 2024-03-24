@@ -22,13 +22,13 @@ main {
 
 .pokedex {
     width: 100%;
-    max-width: 425px;
+    max-width: 900px;
 }
 
 .pokemon__image {
     position: absolute;
-    bottom: 55%;
-    left: 50%;
+    bottom: 50%;
+    left: 28%;
     transform: translate(-63%, 20%);
     height: 18%;
 }
@@ -37,8 +37,8 @@ main {
     position: absolute;
     font-weight: 600;
     color: #AAA;
-    top: 54.5%;
-    right: 27%;
+    top: 60%;
+    right: 58%;
     font-size: clamp(8px, 5vw, 25px);
 }
 
@@ -49,9 +49,9 @@ main {
 
 .form {
     position: absolute;
-    width: 65%;
-    top: 65%;
-    left: 13.5%;
+    width: 36%;
+    top: 73%;
+    left: 9%;
 }
 
 .input__search {
@@ -69,8 +69,8 @@ main {
 .buttons {
     position: absolute;
     bottom: 10%;
-    left: 50%;
-    width: 65%;
+    left: 30%;
+    width: 28%;
     transform: translate(-57%, 0);
     display: flex;
     gap: 20px;
