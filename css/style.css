@@ -25,7 +25,7 @@ main {
     max-width: 425px;
 }
 
-.pokemon__img {
+.pokemon__image {
     position: absolute;
     bottom: 55%;
     left: 50%;
@@ -81,7 +81,7 @@ main {
     padding: 4%;
     border: 2px solid #000;
     border-radius: 5px;
-    font-size: clamp(8px, 5vm, 1rem);
+    font-size: clamp(8px, 5vw, 1rem);
     font-weight: 600;
     color: #FFF;
     background-color: #444;
@@ -90,6 +90,6 @@ main {
 
 .button:active {
     box-shadow: inset -4px 4px 0 #222;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     background-color: #333;
 }
