@@ -23,7 +23,6 @@ const renderPokemon = async (pokemon) => {
   pokemonName.innerHTML = 'Loading...';
   pokemonNumber.innerHTML = '';
   pokemonImage.src = './images/loading.gif';
-  pokemonImage.style.display = 'block';
 
   const data = await fetchPokemon(pokemon);
 
@@ -34,9 +33,10 @@ const renderPokemon = async (pokemon) => {
     input.value = '';
     searchPokemon = data.id;
   } else {
-    pokemonImage.style.display = 'none';
+    pokemonImage.src = './images/not-found.png';
     pokemonName.innerHTML = 'Not found :c';
     pokemonNumber.innerHTML = '';
+    input.value = '';
   }
 }
 
